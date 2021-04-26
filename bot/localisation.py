@@ -18,18 +18,18 @@ from bot.get_cfg import get_config
 
 
 class Localisation:
-    START_TEXT = "Hello, \n\nI am a Telegram Video Compress Bot \n\n<b>Please sent me any Telegram big file I Will compress a small file</b> \n\n/help for more details... \n\nSupport Group :@Dx_Support"
+    START_TEXT = "𝗛𝗲𝗹𝗹𝗼, \n\n𝗜 𝗮𝗺 𝘃𝗶𝗱𝗲𝗼 𝗰𝗼𝗺𝗽𝗿𝗲𝘀𝘀 𝗯𝗼𝘁  \n\n<b>𝗽𝗹𝗲𝗮𝘀𝗲 𝗦𝗲𝗻𝘁 𝗠𝗲 𝗔𝗻𝘆 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗕𝗶𝗴 𝗙𝗶𝗹𝗲/𝗩𝗶𝗱𝗲𝗼 𝗜 𝗪𝗶𝗹𝗹 𝗖𝗼𝗻𝗽𝗿𝗲𝘀𝘀 𝗔 𝗦𝗺𝗮𝗹𝗹 𝗙𝗶𝗹𝗲/𝗩𝗶𝗱𝗲𝗼</b> \n\n/help 𝗙𝗼𝗿 𝗠𝗼𝗿𝗲 𝗗𝗲𝘁𝗮𝗶𝗹𝘀... \n\n𝗕𝘂𝘁 𝗬𝗼𝘂 𝗠𝘂𝘀 𝗝𝗼𝗶𝗻 𝗠𝘆 𝗨𝗽𝗱𝗮𝘁𝗶𝗼𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗧𝗼 𝗨𝘀𝗲 𝗠𝗲 :@Mega_Bots_Updates"
    
     ABS_TEXT = " Please don't be selfish."
     
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
     
     
-    DOWNLOAD_START = "📥 Downloading 📥 \n"
+    DOWNLOAD_START = "📥 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗶𝗻𝗴 📥 \n"
     
-    UPLOAD_START = "📤 Uploading 📤 \n"
+    UPLOAD_START = "📤 𝗨𝗽𝗹𝗼𝗱𝗶𝗻𝗴 📤 \n"
     
-    COMPRESS_START = "📀 Trying to compress... 📀"
+    COMPRESS_START = "📀 𝗧𝗿𝘆𝗶𝗻𝗴 𝗧𝗼 𝗖𝗼𝗺𝗽𝗿𝗲𝘀𝘀... 📀"
     
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     
@@ -59,7 +59,7 @@ class Localisation:
     
     HELP_MESSAGE = get_config(
         "STRINGS_HELP_MESSAGE",
-        "Hi am Video Compressor Bot \n\n1. Sent your telegram big video file \n2. Reply the file - /compress And Persentage \nEg:- <code>/compress 50</code> \n\nSupport Group :@Dx_Support"
+        "Hi am Video Compressor Bot \n\n1. Sent your telegram big video file \n2. Reply the file - /compress And Persentage \nEg:- <code>/compress 50</code> \n\nSupport Group :@Mega_Bots_Updates"
     )
     WRONG_MESSAGE = get_config(
         "STRINGS_WRONG_MESSAGE",
